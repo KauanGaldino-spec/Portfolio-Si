@@ -11,8 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap"
       rel="stylesheet"
     />
+    <style>
+      /* Garantir que as fontes sejam aplicadas corretamente */
+      body {
+        font-family: "Outfit", sans-serif;
+      }
+      .font-ovo {
+        font-family: "Ovo", serif;
+      }
+    </style>
   </head>
-  <body class="overflow-x-hidden font-outfit">
+  <body class="overflow-x-hidden">
     <!-- Background fixo -->
     <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
       <img
@@ -24,7 +33,7 @@
 
     <!-- Navbar -->
     <nav
-      class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50"
+      class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 bg-white bg-opacity-80"
     >
       <img
         src="./portfolio_images/images/logo.png"
@@ -554,6 +563,6 @@
       </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script scr="./script.js"></script>
   </body>
 </html>
