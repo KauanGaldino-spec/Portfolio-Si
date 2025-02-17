@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio - GreatStack</title>
+    <title>Portofolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +21,7 @@
       }
     </style>
   </head>
-  <body class="overflow-x-hidden">
+  <body class="overflow-x-hidden leading-8 font-Outfit">
     <!-- Background fixo -->
     <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]">
       <img
@@ -52,7 +52,11 @@
 
       <div class="flex items-center gap-4">
         <button>
-          <img src="./port" alt="" class="w-6" />
+          <img
+            src="./portfolio_images/images/mooon_icon.png"
+            alt=""
+            class="w-6"
+          />
         </button>
 
         <a
@@ -74,7 +78,6 @@
         </button>
       </div>
 
-      <!-- Menu móvel -->
       <ul
         id="sideMenu"
         class="fixed top-0 bottom-0 right-0 z-50 flex flex-col w-64 h-screen gap-4 px-10 py-20 transition duration-500 translate-x-full md:hidden bg-rose-50"
@@ -95,7 +98,7 @@
       </ul>
     </nav>
 
-    <!-- Header -->
+    <!-- Top -->
     <div
       id="top"
       class="flex flex-col items-center justify-center w-11/12 h-screen max-w-3xl gap-4 mx-auto text-center"
@@ -103,18 +106,18 @@
       <img
         src="./portfolio_images/images/profile-img.png"
         alt=""
-        class="w-32 rounded-full"
+        class="w-32 mt-20 rounded-full"
       />
       <h3 class="flex items-end gap-2 mb-3 text-xl md:text-2xl">
-        Hi! I'm Eliana Jade
+        Hi! I'm Kauan
         <img src="./portfolio_images/images/hand-icon.png" alt="" class="w-6" />
       </h3>
       <h1 class="text-3xl sm:text-6xl lg:text-[66px]">
-        Frontend web developer based in London.
+        Frontend web developer.
       </h1>
       <p class="max-w-2xl mx-auto">
-        I am a frontend developer from California, USA with 10 years of
-        experience in multiple companies like Microsoft, Tesla, and Apple.
+        I am a frontend developer from Brazil, 3 years of
+        experience, I create web pages for small and medium-sized.
       </p>
 
       <div class="flex flex-col items-center gap-4 mt-4 sm:flex-row">
@@ -160,7 +163,7 @@
             <img
               src="./portfolio_images/images/circular-text.png"
               alt=""
-              class="w-full"
+              class="w-full animate spinSlow"
             />
             <img
               src="./portfolio_images/images/dev-icon.png"
@@ -171,15 +174,12 @@
         </div>
         <div class="flex-1">
           <p class="max-w-2xl mb-10">
-            I am an experienced Frontend Developer with over a decade of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contributing to their success and growth.
+            I'am, a passionate Frontend Developer dedicated to building dynamic and responsive web experiences. With a strong focus on continuous learning and innovation, I specialize in HTML, CSS, JavaScript, and React. My goal is to create impactful digital solutions while growing both personally and professionally.
           </p>
 
           <ul class="grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-3">
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
             >
               <img
                 src="./portfolio_images/images/code-icon.png"
@@ -188,11 +188,11 @@
               />
               <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
               <p class="text-sm text-gray-600">
-                HTML, CSS, JavaScript, React Js, Next Js
+                HTML, CSS, JavaScript and Tailwind
               </p>
             </li>
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
             >
               <img
                 src="./portfolio_images/images/edu-icon.png"
@@ -200,10 +200,10 @@
                 class="mt-3 w-7"
               />
               <h3 class="my-4 font-semibold text-gray-700">Education</h3>
-              <p class="text-sm text-gray-600">B.Tech in Computer Science</p>
+              <p class="text-sm text-gray-600">Udemy</p>
             </li>
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
             >
               <img
                 src="./portfolio_images/images/project-icon.png"
@@ -225,24 +225,7 @@
                 alt=""
                 class="w-5 sm:w-7"
               />
-            </li>
-            <li
-              class="flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
-            >
-              <img
-                src="./portfolio_images/images/firebase.png"
-                alt=""
-                class="w-5 sm:w-7"
-              />
-            </li>
-            <li
-              class="flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
-            >
-              <img
-                src="./portfolio_images/images/mongodb.png"
-                alt=""
-                class="w-5 sm:w-7"
-              />
+          </li>
             </li>
             <li
               class="flex items-center justify-center w-12 duration-500 border border-gray-400 rounded-lg cursor-pointer sm:w-14 aspect-square hover:-translate-y-1"
@@ -271,14 +254,10 @@
     <div id="services" class="w-full px-[12%] py-10 scroll-mt-20">
       <h4 class="mb-2 text-lg text-center">What I offer</h4>
       <h2 class="text-5xl text-center">My services</h2>
-      <p class="max-w-2xl mx-auto mt-5 mb-12 text-center">
-        I am a frontend web developer from California, USA with 10 years of
-        experience in multiple companies like Microsoft, Tesla, and Apple.
-      </p>
 
       <div class="grid grid-cols-1 gap-6 my-10 sm:grid-cols-2 lg:grid-cols-4">
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500"
         >
           <img
             src="./portfolio_images/images/web-icon.png"
@@ -298,7 +277,7 @@
           /></a>
         </div>
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500"
         >
           <img
             src="./portfolio_images/images/mobile-icon.png"
@@ -318,7 +297,7 @@
           /></a>
         </div>
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500"
         >
           <img
             src="./portfolio_images/images/ui-icon.png"
@@ -338,7 +317,7 @@
           /></a>
         </div>
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500"
         >
           <img
             src="./portfolio_images/images/graphics-icon.png"
@@ -377,8 +356,8 @@
             class="absolute flex items-center justify-between w-10/12 px-5 py-3 duration-500 -translate-x-1/2 bg-white rounded-md bottom-5 left-1/2 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semibold">Frontend Work</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semibold">Geo based app</h2>
+              <p class="text-sm text-gray-700">mobile app</p>
             </div>
             <div
               class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
@@ -398,7 +377,7 @@
             class="absolute flex items-center justify-between w-10/12 px-5 py-3 duration-500 -translate-x-1/2 bg-white rounded-md bottom-5 left-1/2 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semibold">Frontend Work</h2>
+              <h2 class="font-semibold">Photography Site</h2>
               <p class="text-sm text-gray-700">Web Design</p>
             </div>
             <div
@@ -419,8 +398,8 @@
             class="absolute flex items-center justify-between w-10/12 px-5 py-3 duration-500 -translate-x-1/2 bg-white rounded-md bottom-5 left-1/2 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semibold">Frontend Work</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semibold">UI/UX designing</h2>
+              <p class="text-sm text-gray-700">UI/UX Design</p>
             </div>
             <div
               class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
@@ -457,7 +436,7 @@
       </div>
       <a
         href="#"
-        class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[#fcf4ff] duration-500"
+        class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500"
         >Show more
         <img src="./portfolio_images/images/right-arrow.png" alt="" />
       </a>
@@ -474,24 +453,27 @@
         I'd love to hear from you! If you have any questions, comments, or
         feedback, please use the form below.
       </p>
-      <form action="" class="max-w-2xl mx-auto">
+      <form method="post" action="https://api.web3forms.com/submit" class="max-w-2xl mx-auto">
+        <input type="hidden" name="access_key" value="769ead26-d1c8-4022-9177-9e6f50b8e76a">
+
+
         <div class="grid grid-cols-1 gap-6 mt-10 mb-8 sm:grid-cols-2">
           <input
             type="text"
             placeholder="Enter your name"
-            class="w-full p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            class="w-full p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white required" required name="name"
           />
           <input
             type="text"
             placeholder="Enter your email"
-            class="w-full p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            class="w-full p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white required name=" required name="email"
           />
         </div>
         <textarea
           rows="6"
           placeholder="Enter your message"
           class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
-        ></textarea>
+        ></textarea required name="message">
         <button
           class="flex items-center justify-between gap-2 px-8 py-3 mx-auto text-white duration-500 rounded-full w-max bg-black/80 hover:bg-black"
         >
@@ -519,16 +501,16 @@
             alt=""
             class="w-6"
           />
-          greatstackdev@gmail.com
+          Neoozin4@gmail.com
         </div>
       </div>
       <div
         class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6"
       >
-        <p>@ 2024 Eliana Jade. All rights reserved.</p>
+        <p>@ 2025 Kauan. All rights reserved.</p>
         <ul class="flex items-center justify-center gap-10 mt-4 sm:mt-0">
           <li>
-            <a href="https://instagram.com/greatstackdev/"
+            <a href=""
               ><img
                 src="./portfolio_images/images/github.png"
                 alt=""
@@ -536,7 +518,7 @@
             >
           </li>
           <li>
-            <a href="https://instagram.com/greatstackdev/"
+            <a href=""
               ><img
                 src="./portfolio_images/images/github.png"
                 alt=""
@@ -544,7 +526,7 @@
             >
           </li>
           <li>
-            <a href="https://instagram.com/greatstackdev/"
+            <a href=""
               ><img
                 src="./portfolio_images/images/github.png"
                 alt=""
@@ -552,7 +534,7 @@
             >
           </li>
           <li>
-            <a href="https://instagram.com/greatstackdev/"
+            <a href=""
               ><img
                 src="./portfolio_images/images/github.png"
                 alt=""
@@ -563,6 +545,6 @@
       </div>
     </div>
 
-    <script scr="./script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
